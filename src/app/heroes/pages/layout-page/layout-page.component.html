@@ -25,7 +25,8 @@
       <mat-icon>menu</mat-icon>
     </button>
     <span class="spacer"></span>
-    <button mat-button>Cerrar Sesión</button>
+    <span>{{user?.email}}</span>
+    <button mat-button (click)="onLogout()">Cerrar Sesión</button>
   </mat-toolbar>
   <div class="container p-2">
     <router-outlet></router-outlet>

@@ -5,6 +5,7 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 
 
+
 const routes: Routes =[
   {
     path:"",
@@ -13,6 +14,7 @@ const routes: Routes =[
       {path: "login", component: LoginPageComponent},
       {path: "new-account", component: RegisterPageComponent},
       {path: "**", redirectTo: "login"},
+
     ]
   }
 ]

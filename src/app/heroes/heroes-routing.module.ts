@@ -32,7 +32,7 @@ const routes: Routes = [
         component: HeroPageComponent
       },
       {
-        path: ":**",
+        path: "**",
         redirectTo: "list"
       }
     ]
